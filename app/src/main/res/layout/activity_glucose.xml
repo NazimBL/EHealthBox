@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.bluetooth.TemperatureActivity"
+    android:background="@drawable/suger">
+
+    <VideoView
+        android:layout_width="500dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="250dp"
+        android:id="@+id/sugarvideo"
+        android:layout_marginTop="110dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/skip_id4"
+            android:layout_width="320dp"
+            android:layout_height="160dp"
+            android:src="@drawable/skip" />
+
+        <ImageButton
+            android:id="@+id/done_id4"
+            android:layout_width="320dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="30dp"
+
+            android:src="@drawable/done" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/editText"
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="100dp"
+            android:inputType="numberDecimal"
+
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
